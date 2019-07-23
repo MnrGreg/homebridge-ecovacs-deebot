@@ -44,6 +44,10 @@ Example Homebridge cmdSwitch2 configuration
 }]
 ```
 
+## Cross compile for Raspberry PI:
+```
+env GOOS=linux GOARCH=arm GOARM=7 go build -o deebot-arm7
+```
 
 ### Thanks
 
