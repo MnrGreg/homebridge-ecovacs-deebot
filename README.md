@@ -9,6 +9,21 @@ A Golang program to control your Ecovacs vacuum from Home Automation systems suc
 To get started, you'll need to have already set up an EcoVacs account
 using your smartphone. Update deebot.json with your peticulars and place it in /usr/local/etc/
 
+Determine your device ID using the
+
+```
+pip install sucks
+pip install pipenv
+```
+
+CH: msg.ecouser.net
+TW, MY, JP, SG, TH, HK, IN, KR: msg-as.ecouser.net
+US: msg-na.ecouser.net
+FR, ES, UK, NO, MX, DE, PT, CH, AU, IT, NL, SE, BE, DK: msg-eu.ecouser.net
+Any other country: msg-ww.ecouser.net
+
+
+
 
 With that set up, you could have it clean in auto mode:
 
